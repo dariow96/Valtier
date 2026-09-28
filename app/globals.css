@@ -125,7 +125,16 @@ nav{
 nav a:hover{
   color:#927545
 }
-.showroom-link{display:flex;align-items:center;gap:8px;font-size:14px}.hero{display:grid;grid-template-columns:1fr 1fr;min-height:475px;margin:28px 5% 0;gap:2vw}.hero-copy{padding:48px 0 35px;align-self:center}
+.showroom-link{
+  font-family:Georgia,'Times New Roman',serif;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-size:16px;
+  letter-spacing:.18em
+}
+
+.hero{display:grid;grid-template-columns:1fr 1fr;min-height:475px;margin:28px 5% 0;gap:2vw}.hero-copy{padding:48px 0 35px;align-self:center}
 
 .eyebrow{  
   font-family:Georgia,serif;
