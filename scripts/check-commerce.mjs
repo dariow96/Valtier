@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import { rentalQuote, purchaseQuote } from '../lib/commerce.ts';
+const now=new Date('2026-09-28T12:00:00Z');
+assert.equal(rentalQuote('celeste','2026-10-01','2026-10-05',now).amountCents,35000);
+assert.throws(()=>rentalQuote('celeste','2026-10-01','2026-10-04',now));
+assert.throws(()=>rentalQuote('celeste','2026-09-20','2026-09-24',now));
+assert.throws(()=>rentalQuote('unknown','2026-10-01','2026-10-05',now));
+assert.throws(()=>rentalQuote('celeste','2026-02-30','2026-03-10',now));
+assert.equal(purchaseQuote(500000,30000,true).totalCents,420000);
+assert.equal(purchaseQuote(500000,30000,false).totalCents,470000);
+assert.equal(purchaseQuote(10000,30000,true).totalCents,0);
+console.log('8 pricing and rental validation checks passed');
