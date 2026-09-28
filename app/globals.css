@@ -157,14 +157,19 @@ nav a:hover{
   min-height: 620px;
   margin: 0;
   padding: 70px 5%;
-  background:
+  background-color: #0a1621;
+  background-image:
     linear-gradient(
       90deg,
       rgba(10, 22, 33, 0.82) 0%,
-      rgba(10, 22, 33, 0.5) 55%,
-      rgba(10, 22, 33, 0.15) 100%
+      rgba(10, 22, 33, 0.55) 35%,
+      rgba(10, 22, 33, 0.15) 65%,
+      rgba(10, 22, 33, 0) 100%
     ),
-    url("/bridal-background.jpg") center / cover no-repeat;
+    url("/bridal-background.jpg");
+  background-size: cover, cover;
+  background-position: center, calc(50% + 125px) center;
+  background-repeat: no-repeat;
 }
 
 .hero-copy {
