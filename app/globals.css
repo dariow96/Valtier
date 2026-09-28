@@ -74,3 +74,55 @@
     flex-wrap: wrap;
   }
 }
+/* Transparent header floating over the hero */
+main {
+  position: relative;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  height: 100px;
+  margin: 0;
+  padding: 0 5%;
+  background: transparent;
+  border: 0;
+  color: #fff;
+}
+
+header nav a:hover,
+header .showroom-link:hover {
+  color: #e0c59d;
+}
+
+/* Remove the announcement strip above the header */
+.topline {
+  display: none;
+}
+
+/* Leave room for the header over the background */
+.hero {
+  min-height: 720px;
+  padding-top: 150px;
+}
+
+@media (max-width: 600px) {
+  header {
+    height: auto;
+    min-height: 100px;
+    padding: 18px 6% 12px;
+    row-gap: 16px;
+  }
+
+  header nav {
+    padding-bottom: 0;
+  }
+
+  .hero {
+    min-height: 650px;
+    padding-top: 155px;
+  }
+}
