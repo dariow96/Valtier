@@ -163,12 +163,12 @@ nav a:hover{
       90deg,
       rgba(10, 22, 33, 0.82) 0%,
       rgba(10, 22, 33, 0.55) 35%,
-      rgba(10, 22, 33, 0.15) 65%,
+      rgba(10, 22, 33, 0.05) 65%,
       rgba(10, 22, 33, 0) 100%
     ),
     url("/bridal-background.png");
   background-size: cover, cover;
-  background-position: center, calc(50% + 125px) center;
+  background-position: center, calc(50%) center;
   background-repeat: no-repeat;
 }
 
