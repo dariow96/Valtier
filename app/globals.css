@@ -168,7 +168,7 @@ nav a:hover{
     ),
     url("/bridal-background.png");
   background-size: cover, cover;
-  background-position: center, calc(50%) center;
+  background-position: center, calc(50% - 75px) center;
   background-repeat: no-repeat;
 }
 
