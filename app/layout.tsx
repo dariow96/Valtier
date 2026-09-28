@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Valtier Jewelery | Bridal Diamond Rentals",
+  title: "Valtiere Jewelery | Bridal Diamond Rentals",
   description: "Shine like a star on your wedding day. Rent bridal diamond jewelry for at least four days and receive a purchase voucher valid for three years.",
   other: {
     "codex-preview": "development",
