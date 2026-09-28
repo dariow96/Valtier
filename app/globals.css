@@ -55,6 +55,9 @@ button:disabled{
 
 a{
   font-family:Georgia,'Times New Roman',serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing:.18em;
   color:inherit;
   text-decoration:none
 }
