@@ -166,7 +166,7 @@ nav a:hover{
       rgba(10, 22, 33, 0.15) 65%,
       rgba(10, 22, 33, 0) 100%
     ),
-    url("/bridal-background.jpg");
+    url("/bridal-background.png");
   background-size: cover, cover;
   background-position: center, calc(50% + 125px) center;
   background-repeat: no-repeat;
